@@ -2,9 +2,27 @@
     "name": "coinolive/coinolive-php",
     "description": "PHP library for the Coino Live crypto payment API",
     "type": "library",
-    "keywords": ["coino live", "crypto", "payments", "bitcoin", "usdt", "payment gateway"],
+    "keywords": [
+        "coino live",
+        "crypto",
+        "payments",
+        "bitcoin",
+        "usdt",
+        "payment gateway"
+    ],
     "homepage": "https://coino.live/api-guide",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Coino Live",
+            "homepage": "https://coino.live"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/coino-live/php-crypto-payments/issues",
+        "source": "https://github.com/coino-live/php-crypto-payments",
+        "docs": "https://coino.live/api-guide"
+    },
     "require": {
         "php": ">=8.1",
         "ext-curl": "*",
