@@ -21,7 +21,13 @@ With this library you can:
 
 ## Installation
 
-Download `coinolive-php-<version>.zip` from [coino.live/api-guide](https://coino.live/api-guide#libraries), unzip it into your project and load it:
+Install it with Composer from [Packagist](https://packagist.org/packages/coinolive/coinolive-php):
+
+```bash
+composer require coinolive/coinolive-php
+```
+
+Or download `coinolive-php-<version>.zip` from [coino.live/api-guide](https://coino.live/api-guide#libraries), unzip it into your project and load it:
 
 ```php
 require __DIR__ . '/coinolive-php/src/autoload.php';
